@@ -1,0 +1,7 @@
+beautifulsoup4==4.12.2
+pyfiglet==0.7.6
+elementpath==4.1.4
+lxml==4.9.2
+openpyxl==3.1.2
+pandas==2.0.3
+colorama
