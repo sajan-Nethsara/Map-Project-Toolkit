@@ -146,10 +146,12 @@ def manipulate_svg(map_text_list, map_id_list,svg_path):
 
     if error_count == 0:
         print(Back.GREEN + f"Operation completed successfully")
-        print(Style.RESET_ALL + '- Done -')
+        print(Style.RESET_ALL + '')
+        print("-")
     else:
         print(Back.RED + f"{error_count} errors found! try again with fixing bugs")
-        print(Style.RESET_ALL + '---')
+        print(Style.RESET_ALL + '')
+        print("-")
     return soup
 
 def ui_art ():
