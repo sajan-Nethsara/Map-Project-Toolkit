@@ -47,6 +47,7 @@ else:
 
         # Remove the polygon element
         parent.remove(polygon)
+        print("<polygon> element --> <path> element")
 
     # Find and convert rect elements to path elements
     rects = root.findall('.//svg:rect', namespace)
